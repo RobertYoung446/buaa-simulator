@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "attribution": "© OpenStreetMap contributors · ODbL 1.0",
+  "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "campuses": [
+    {
+      "campus": "xueyuan",
+      "name": "学院路",
+      "features": 869,
+      "columns": 150,
+      "rows": 148,
+      "blockedCells": 4443,
+      "sourceSHA256": "07e43bc81c1353bc4848bd1df91d0d1a879f864560db8707f4e860ea8f719d38"
+    },
+    {
+      "campus": "shahe",
+      "name": "沙河",
+      "features": 340,
+      "columns": 160,
+      "rows": 154,
+      "blockedCells": 2904,
+      "sourceSHA256": "b24d579a672d064aeeda08d8563684778e48585c7bedc72a6f9932b69e34e984"
+    },
+    {
+      "campus": "hangzhou",
+      "name": "杭州国际校园",
+      "features": 142,
+      "columns": 98,
+      "rows": 161,
+      "blockedCells": 2266,
+      "sourceSHA256": "e0f5db1af215a53796f4c3e92764150335b83b99fb78fe8b8d2d4b0b1187eda5"
+    }
+  ]
+}

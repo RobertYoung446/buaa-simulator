@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>北航模拟器 · 二维地图初稿</title>
+<style>
+body{margin:0;background:#f3efdf;color:#34352e;font:16px system-ui,sans-serif}header{padding:20px 28px;background:#243e36;color:#fff}h1{margin:0 0 8px;font-size:24px}p{line-height:1.7}main{padding:20px 28px}button{padding:10px 18px;margin:0 8px 8px 0;border:1px solid #547e6c;border-radius:6px;background:#fff;color:#243e36;cursor:pointer}button[aria-pressed=true]{background:#365e4d;color:white}iframe{width:100%;height:70vh;border:1px solid #b9baa4;background:#e7e1cc}a{color:#365e4d}.note{font-size:14px;color:#5b6158}footer{padding:18px 28px}
+</style>
+<header><h1>北航模拟器 · 二维校园地图</h1><div>2D 校园生活游戏的地图初稿 · 原始轮廓与示意瓦片</div></header>
+<main>
+<nav aria-label="选择校区"><button data-campus="xueyuan" aria-pressed="true">学院路</button><button data-campus="shahe" aria-pressed="false">沙河</button><button data-campus="hangzhou" aria-pressed="false">杭州国际校园</button></nav>
+<p class="note">草绿：绿地 · 蓝色：水域 · 浅灰：道路 · 棕色：建筑 · 虚线：屋顶参考。地图包含周边区域；入口和碰撞仍需人工编辑。</p>
+<iframe id="map" title="学院路校园二维地图" src="地图数据/二维版本/xueyuan.svg"></iframe>
+<p><a id="vector" href="地图数据/二维版本/xueyuan.svg" target="_blank">打开大图</a> · <a id="raster" href="地图数据/二维版本/xueyuan.tiles-preview.png" target="_blank">瓦片预览</a> · <a id="tiled" href="地图数据/二维版本/xueyuan.tmj" download>下载 Tiled 地图</a> · <a id="data" href="地图数据/二维版本/xueyuan.map.json" download>下载二维数据</a></p>
+<p>这是平面地图转换结果，尚未包含星露谷风格的美术、角色和玩法。后续从学院路小区域开始绘制可玩的瓦片地图。</p>
+</main>
+<footer>© OpenStreetMap contributors · <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a> · <a href="https://github.com/MrRoam/buaa-xueyuan-campus-3d">来源仓库</a></footer>
+<script>
+document.querySelectorAll('button[data-campus]').forEach(button=>button.addEventListener('click',()=>{
+  const key=button.dataset.campus,base='地图数据/二维版本/'+key;
+  document.querySelectorAll('button[data-campus]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+  const map=document.getElementById('map');map.src=base+'.svg';map.title=button.textContent+'校园二维地图';
+  for(const [id,suffix] of [['vector','.svg'],['raster','.tiles-preview.png'],['tiled','.tmj'],['data','.map.json']])document.getElementById(id).href=base+suffix;
+}));
+</script>
+</html>

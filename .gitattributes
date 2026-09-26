@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.osm -text
+*.geojson -text
+*.png binary
+参考资料/** -text
