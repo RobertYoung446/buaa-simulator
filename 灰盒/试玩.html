@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>北航模拟器 · 校园漫步</title><link rel="stylesheet" href="play.css"></head>
+<body><main><header><div><span class="eyebrow">BUAA · CAMPUS LIFE</span><h1>校园漫步 <small>室外原型</small></h1></div><div class="actions"><button id="mapButton">地图 M</button><button id="reset">回到起点</button><a href="预览.html">灰盒总览 ↗</a></div></header>
+<div class="daybar"><strong id="dayTime">第 1 天 · 上午</strong><span id="saveStatus" role="status">尚无睡觉存档</span><button id="rest">休息一时段</button><span>走路不耗时 · 到8公寓睡觉存档</span></div>
+<section id="stage" tabindex="0" aria-label="游戏区域，WASD或方向键移动，E交互"><canvas id="game"></canvas><div id="location"><span>当前地点</span><strong id="sceneName"></strong></div><div id="toast" role="status"></div><div id="prompt" hidden><button id="interact"></button></div><div id="loading">正在载入校园与角色…</div><div id="minimapPanel" hidden><h2>校园导览</h2><canvas id="minimap" width="512" height="336"></canvas><p>黄色：你的位置　青色：区块路口　橙色：地点互动　紫色：逃课同学（开课后）</p><p>走近路口指示牌，按 E 切换室外区块。</p><button id="closeMap">返回游戏 · M / Esc</button></div></section>
+<footer><span><kbd>W A S D</kbd> / <kbd>↑ ↓ ← →</kbd> 移动　<kbd>Shift</kbd> 快走　<kbd>E</kbd> 互动　<kbd>M</kbd> 地图</span><span id="visited">已探索 0 / 6</span></footer>
+<div class="touch"><button data-dir="up">↑</button><button data-dir="left">←</button><button data-dir="down">↓</button><button data-dir="right">→</button><button id="touchE">互动 E</button></div>
+<p class="credit">校园道路与建筑依据学院路二维数据 · © OpenStreetMap contributors / ODbL 1.0 · 路口与互动位置为游戏原型安排</p></main>
+<dialog id="dialog"><span class="eyebrow">校园生活</span><h2 id="dialogTitle"></h2><p id="dialogText"></p><button id="dialogAction" hidden></button><button id="closeDialog">继续逛校园 · E / Esc</button></dialog>
+<script src="world.js"></script><script src="engine.js"></script><script src="course.js"></script><script src="progress.js"></script><script src="play.js"></script></body></html>

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>北航模拟器 · 学院路二维数据灰盒</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f1e9;color:#263741;font:15px/1.6 Arial,"Microsoft YaHei",sans-serif}
+header{padding:20px 28px;background:#263741;color:white}h1{margin:0;font-size:24px}header p{margin:4px 0 0;color:#d2dddf}
+main{max-width:1600px;margin:auto;padding:18px 24px}.bar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:12px}
+button{border:1px solid #b6c0c1;border-radius:7px;background:#fff;padding:7px 10px;color:#263741;cursor:pointer}
+button:hover{background:#fce5d9}.bar label{margin-left:auto;white-space:nowrap}.mapbox{height:min(72vh,960px);overflow:auto;background:#e7e1cc;border:1px solid #cbd1cc;border-radius:10px}
+.mapbox img{display:block;max-width:none}.details{margin-top:14px;display:flex;flex-wrap:wrap;gap:10px}.pill{background:#e6e8e1;border-radius:7px;padding:6px 10px}
+p.note{color:#58676c;margin:10px 0}a{color:#315f7a}
+</style>
+<header><h1>学院路 · 二维数据局部灰盒</h1><p>从仓库二维地图裁出公寓区—东区食堂—图书馆—博物馆一带；橙色轮廓标出选中的源数据要素。</p></header>
+<main><p><a href="试玩.html">▶ 开始校园漫步：移动、碰撞、地点切换与互动</a></p><div class="bar"><button class="place" data-x="1156" data-y="159">北航图书馆</button><button class="place" data-x="701" data-y="558">8公寓</button><button class="place" data-x="454" data-y="691">7公寓</button><button class="place" data-x="765" data-y="1018">东区食堂</button><button class="place" data-x="1825" data-y="914">北京航空航天博物馆</button><button class="place" data-x="1607" data-y="1039">第九馆 / 逸夫楼</button><label>缩放 <input id="zoom" type="range" min="50" max="140" value="80"> <output id="value">80%</output></label></div>
+<div class="mapbox" id="mapbox"><img id="map" src="campus.svg" alt="学院路校区二维数据局部灰盒"></div>
+<div class="details"><span class="pill">源地图：150 × 148 格</span><span class="pill">本区块：64 × 42 格</span><span class="pill">源比例：8 米/格、32 px/格</span><span class="pill">源瓦片起点：(55, 39)</span></div>
+<p class="note">道路、绿地、水体和建筑轮廓取自仓库二维数据。此页查看源地图；试玩页提供三个室外区块、轮廓碰撞与地点互动。室内设计暂缓。</p>
+<p class="note">[二维数据来源] <a href="https://github.com/RobertYoung446/buaa-simulator/tree/59df24233b64aa0b463fde531ac87051556c5a08/地图数据/二维版本">RobertYoung446/buaa-simulator</a> · © OpenStreetMap contributors · <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a></p></main>
+<script>
+const img=document.getElementById('map'),box=document.getElementById('mapbox'),zoom=document.getElementById('zoom'),value=document.getElementById('value');
+function setZoom(){img.style.width=(2048*Number(zoom.value)/100)+'px';value.textContent=zoom.value+'%';}zoom.oninput=setZoom;setZoom();
+document.querySelectorAll('.place').forEach(button=>button.onclick=()=>{const scale=Number(zoom.value)/100;box.scrollTo({left:Number(button.dataset.x)*scale-box.clientWidth/2,top:Number(button.dataset.y)*scale-box.clientHeight/2,behavior:'smooth'});});
+</script></html>

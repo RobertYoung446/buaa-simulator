@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 320" width="384" height="320" role="img" aria-label="宿舍 · 床与工作角">
+<style>text{font-family:Arial,"Microsoft YaHei",sans-serif;fill:#283641} .label{font-size:16px;font-weight:700;text-anchor:middle} .small{font-size:11px;text-anchor:middle} .grid{stroke:#4f6470;stroke-opacity:.14;stroke-width:1} .door{fill:#f1b66e;stroke:#8f674c;stroke-width:2} .anchor{fill:#fff4da;stroke:#b36d3a;stroke-width:2}</style>
+<rect x="0" y="0" width="32" height="32" fill="#5e6c76"/>
+<rect x="32" y="0" width="32" height="32" fill="#5e6c76"/>
+<rect x="64" y="0" width="32" height="32" fill="#5e6c76"/>
+<rect x="96" y="0" width="32" height="32" fill="#5e6c76"/>
+<rect x="128" y="0" width="32" height="32" fill="#5e6c76"/>
+<rect x="160" y="0" width="32" height="32" fill="#5e6c76"/>
+<rect x="192" y="0" width="32" height="32" fill="#5e6c76"/>
+<rect x="224" y="0" width="32" height="32" fill="#5e6c76"/>
+<rect x="256" y="0" width="32" height="32" fill="#5e6c76"/>
+<rect x="288" y="0" width="32" height="32" fill="#5e6c76"/>
+<rect x="320" y="0" width="32" height="32" fill="#5e6c76"/>
+<rect x="352" y="0" width="32" height="32" fill="#5e6c76"/>
+<rect x="0" y="32" width="32" height="32" fill="#5e6c76"/>
+<rect x="32" y="32" width="32" height="32" fill="#e5ddd0"/>
+<rect x="64" y="32" width="32" height="32" fill="#e5ddd0"/>
+<rect x="96" y="32" width="32" height="32" fill="#e5ddd0"/>
+<rect x="128" y="32" width="32" height="32" fill="#e5ddd0"/>
+<rect x="160" y="32" width="32" height="32" fill="#e5ddd0"/>
+<rect x="192" y="32" width="32" height="32" fill="#e5ddd0"/>
+<rect x="224" y="32" width="32" height="32" fill="#e5ddd0"/>
+<rect x="256" y="32" width="32" height="32" fill="#e5ddd0"/>
+<rect x="288" y="32" width="32" height="32" fill="#e5ddd0"/>
+<rect x="320" y="32" width="32" height="32" fill="#e5ddd0"/>
+<rect x="352" y="32" width="32" height="32" fill="#5e6c76"/>
+<rect x="0" y="64" width="32" height="32" fill="#5e6c76"/>
+<rect x="32" y="64" width="32" height="32" fill="#e5ddd0"/>
+<rect x="64" y="64" width="32" height="32" fill="#b7a5a0"/>
+<rect x="96" y="64" width="32" height="32" fill="#b7a5a0"/>
+<rect x="128" y="64" width="32" height="32" fill="#e5ddd0"/>
+<rect x="160" y="64" width="32" height="32" fill="#e5ddd0"/>
+<rect x="192" y="64" width="32" height="32" fill="#e5ddd0"/>
+<rect x="224" y="64" width="32" height="32" fill="#bd967b"/>
+<rect x="256" y="64" width="32" height="32" fill="#bd967b"/>
+<rect x="288" y="64" width="32" height="32" fill="#bd967b"/>
+<rect x="320" y="64" width="32" height="32" fill="#e5ddd0"/>
+<rect x="352" y="64" width="32" height="32" fill="#5e6c76"/>
+<rect x="0" y="96" width="32" height="32" fill="#5e6c76"/>
+<rect x="32" y="96" width="32" height="32" fill="#e5ddd0"/>
+<rect x="64" y="96" width="32" height="32" fill="#b7a5a0"/>
+<rect x="96" y="96" width="32" height="32" fill="#b7a5a0"/>
+<rect x="128" y="96" width="32" height="32" fill="#e5ddd0"/>
+<rect x="160" y="96" width="32" height="32" fill="#e5ddd0"/>
+<rect x="192" y="96" width="32" height="32" fill="#e5ddd0"/>
+<rect x="224" y="96" width="32" height="32" fill="#bd967b"/>
+<rect x="256" y="96" width="32" height="32" fill="#bd967b"/>
+<rect x="288" y="96" width="32" height="32" fill="#bd967b"/>
+<rect x="320" y="96" width="32" height="32" fill="#e5ddd0"/>
+<rect x="352" y="96" width="32" height="32" fill="#5e6c76"/>
+<rect x="0" y="128" width="32" height="32" fill="#5e6c76"/>
+<rect x="32" y="128" width="32" height="32" fill="#e5ddd0"/>
+<rect x="64" y="128" width="32" height="32" fill="#e5ddd0"/>
+<rect x="96" y="128" width="32" height="32" fill="#e5ddd0"/>
+<rect x="128" y="128" width="32" height="32" fill="#e5ddd0"/>
+<rect x="160" y="128" width="32" height="32" fill="#e5ddd0"/>
+<rect x="192" y="128" width="32" height="32" fill="#e5ddd0"/>
+<rect x="224" y="128" width="32" height="32" fill="#e5ddd0"/>
+<rect x="256" y="128" width="32" height="32" fill="#e5ddd0"/>
+<rect x="288" y="128" width="32" height="32" fill="#e5ddd0"/>
+<rect x="320" y="128" width="32" height="32" fill="#e5ddd0"/>
+<rect x="352" y="128" width="32" height="32" fill="#5e6c76"/>
+<rect x="0" y="160" width="32" height="32" fill="#5e6c76"/>
+<rect x="32" y="160" width="32" height="32" fill="#e5ddd0"/>
+<rect x="64" y="160" width="32" height="32" fill="#e5ddd0"/>
+<rect x="96" y="160" width="32" height="32" fill="#e5ddd0"/>
+<rect x="128" y="160" width="32" height="32" fill="#e5ddd0"/>
+<rect x="160" y="160" width="32" height="32" fill="#e5ddd0"/>
+<rect x="192" y="160" width="32" height="32" fill="#e5ddd0"/>
+<rect x="224" y="160" width="32" height="32" fill="#e5ddd0"/>
+<rect x="256" y="160" width="32" height="32" fill="#e5ddd0"/>
+<rect x="288" y="160" width="32" height="32" fill="#e5ddd0"/>
+<rect x="320" y="160" width="32" height="32" fill="#e5ddd0"/>
+<rect x="352" y="160" width="32" height="32" fill="#5e6c76"/>
+<rect x="0" y="192" width="32" height="32" fill="#5e6c76"/>
+<rect x="32" y="192" width="32" height="32" fill="#e5ddd0"/>
+<rect x="64" y="192" width="32" height="32" fill="#bd967b"/>
+<rect x="96" y="192" width="32" height="32" fill="#bd967b"/>
+<rect x="128" y="192" width="32" height="32" fill="#e5ddd0"/>
+<rect x="160" y="192" width="32" height="32" fill="#e5ddd0"/>
+<rect x="192" y="192" width="32" height="32" fill="#e5ddd0"/>
+<rect x="224" y="192" width="32" height="32" fill="#e5ddd0"/>
+<rect x="256" y="192" width="32" height="32" fill="#e5ddd0"/>
+<rect x="288" y="192" width="32" height="32" fill="#bd967b"/>
+<rect x="320" y="192" width="32" height="32" fill="#e5ddd0"/>
+<rect x="352" y="192" width="32" height="32" fill="#5e6c76"/>
+<rect x="0" y="224" width="32" height="32" fill="#5e6c76"/>
+<rect x="32" y="224" width="32" height="32" fill="#e5ddd0"/>
+<rect x="64" y="224" width="32" height="32" fill="#e5ddd0"/>
+<rect x="96" y="224" width="32" height="32" fill="#e5ddd0"/>
+<rect x="128" y="224" width="32" height="32" fill="#e5ddd0"/>
+<rect x="160" y="224" width="32" height="32" fill="#e5ddd0"/>
+<rect x="192" y="224" width="32" height="32" fill="#e5ddd0"/>
+<rect x="224" y="224" width="32" height="32" fill="#e5ddd0"/>
+<rect x="256" y="224" width="32" height="32" fill="#e5ddd0"/>
+<rect x="288" y="224" width="32" height="32" fill="#bd967b"/>
+<rect x="320" y="224" width="32" height="32" fill="#e5ddd0"/>
+<rect x="352" y="224" width="32" height="32" fill="#5e6c76"/>
+<rect x="0" y="256" width="32" height="32" fill="#5e6c76"/>
+<rect x="32" y="256" width="32" height="32" fill="#e5ddd0"/>
+<rect x="64" y="256" width="32" height="32" fill="#e5ddd0"/>
+<rect x="96" y="256" width="32" height="32" fill="#e5ddd0"/>
+<rect x="128" y="256" width="32" height="32" fill="#e5ddd0"/>
+<rect x="160" y="256" width="32" height="32" fill="#e5ddd0"/>
+<rect x="192" y="256" width="32" height="32" fill="#e5ddd0"/>
+<rect x="224" y="256" width="32" height="32" fill="#e5ddd0"/>
+<rect x="256" y="256" width="32" height="32" fill="#e5ddd0"/>
+<rect x="288" y="256" width="32" height="32" fill="#e5ddd0"/>
+<rect x="320" y="256" width="32" height="32" fill="#e5ddd0"/>
+<rect x="352" y="256" width="32" height="32" fill="#5e6c76"/>
+<rect x="0" y="288" width="32" height="32" fill="#5e6c76"/>
+<rect x="32" y="288" width="32" height="32" fill="#5e6c76"/>
+<rect x="64" y="288" width="32" height="32" fill="#5e6c76"/>
+<rect x="96" y="288" width="32" height="32" fill="#5e6c76"/>
+<rect x="128" y="288" width="32" height="32" fill="#5e6c76"/>
+<rect x="160" y="288" width="32" height="32" fill="#efb66d"/>
+<rect x="192" y="288" width="32" height="32" fill="#efb66d"/>
+<rect x="224" y="288" width="32" height="32" fill="#5e6c76"/>
+<rect x="256" y="288" width="32" height="32" fill="#5e6c76"/>
+<rect x="288" y="288" width="32" height="32" fill="#5e6c76"/>
+<rect x="320" y="288" width="32" height="32" fill="#5e6c76"/>
+<rect x="352" y="288" width="32" height="32" fill="#5e6c76"/>
+<path class="grid" d="M0 0V320"/>
+<path class="grid" d="M32 0V320"/>
+<path class="grid" d="M64 0V320"/>
+<path class="grid" d="M96 0V320"/>
+<path class="grid" d="M128 0V320"/>
+<path class="grid" d="M160 0V320"/>
+<path class="grid" d="M192 0V320"/>
+<path class="grid" d="M224 0V320"/>
+<path class="grid" d="M256 0V320"/>
+<path class="grid" d="M288 0V320"/>
+<path class="grid" d="M320 0V320"/>
+<path class="grid" d="M352 0V320"/>
+<path class="grid" d="M384 0V320"/>
+<path class="grid" d="M0 0H384"/>
+<path class="grid" d="M0 32H384"/>
+<path class="grid" d="M0 64H384"/>
+<path class="grid" d="M0 96H384"/>
+<path class="grid" d="M0 128H384"/>
+<path class="grid" d="M0 160H384"/>
+<path class="grid" d="M0 192H384"/>
+<path class="grid" d="M0 224H384"/>
+<path class="grid" d="M0 256H384"/>
+<path class="grid" d="M0 288H384"/>
+<path class="grid" d="M0 320H384"/>
+<rect x="67" y="67" width="58" height="58" rx="5" fill="none" stroke="#745f59" stroke-width="2"/>
+<text class="small" x="96.0" y="101.0">床</text>
+<circle class="anchor" cx="80.0" cy="112.0" r="7"/>
+<rect x="227" y="67" width="90" height="58" rx="5" fill="none" stroke="#745f59" stroke-width="2"/>
+<text class="small" x="272.0" y="101.0">书桌</text>
+<circle class="anchor" cx="272.0" cy="112.0" r="7"/>
+<rect x="67" y="195" width="58" height="26" rx="5" fill="none" stroke="#745f59" stroke-width="2"/>
+<text class="small" x="96.0" y="213.0">书架</text>
+<circle class="anchor" cx="80.0" cy="208.0" r="7"/>
+<rect x="291" y="195" width="26" height="58" rx="5" fill="none" stroke="#745f59" stroke-width="2"/>
+<text class="small" x="304.0" y="229.0">衣柜</text>
+<circle class="anchor" cx="176.0" cy="304.0" r="7"/>
+<ellipse cx="176.0" cy="248.0" rx="11" ry="5" fill="#314c67" opacity=".35"/>
+<circle cx="176.0" cy="234.0" r="8" fill="#3b6682" stroke="#fff" stroke-width="2"/>
+<text class="small" x="176.0" y="220.0">出生点</text>
+</svg>

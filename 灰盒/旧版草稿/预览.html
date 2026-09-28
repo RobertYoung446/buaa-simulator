@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>北航模拟器 · 灰盒场景总览</title>
+<style>
+body{margin:0;background:#f4f1e9;color:#263741;font:15px/1.6 Arial,"Microsoft YaHei",sans-serif}
+header{padding:22px 28px;background:#263741;color:white}h1{margin:0;font-size:23px}header p{margin:4px 0 0;color:#c9d4d6}
+main{max-width:1540px;margin:auto;padding:20px 28px}nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+button{border:1px solid #b6c0c1;border-radius:8px;background:white;padding:9px 13px;cursor:pointer;color:#263741}
+button.active{background:#dce8df;border-color:#668b7d;font-weight:bold}.frame{background:white;border:1px solid #d6dbd4;border-radius:12px;padding:12px;overflow:auto;box-shadow:0 8px 30px #26374112}
+img{display:block;max-width:none}.meta{display:flex;flex-wrap:wrap;gap:12px;margin:14px 0}.pill{background:#e7e9e2;border-radius:8px;padding:7px 12px}.note{color:#5a6970}
+</style>
+<header><h1>北航模拟器 · 校园与室内灰盒</h1><p>第一步：检查空间比例、通道宽度、入口位置与交互锚点。此页不含移动逻辑。</p></header>
+<main><nav><button data-scene="campus">学院路 · 迎新灰盒区块</button>
+<button data-scene="dorm_room">宿舍 · 床与工作角</button>
+<button data-scene="classroom">公共教室 · 课程空间</button>
+<button data-scene="club_room">社团活动室 · 制作与展示</button></nav><div class="frame"><img id="map" alt="灰盒地图"></div>
+<div class="meta"><span class="pill">1 格 = 32 × 32 px</span><span class="pill">角色外观 = 20 × 28 px</span><span class="pill">碰撞脚印 = 20 × 12 px</span><span class="pill">交互半径 = 40 px</span><span class="pill">门宽 = 2 格</span></div>
+<p class="note" id="note"></p><p class="note">蓝点为玩家出生点；浅黄圆点为交互锚点；橙色短条为户外入口。地图可用 Tiled 打开同名 .tmj 编辑。学院路区块为玩法示意，路线和建筑体块不代表真实尺寸。</p>
+<p class="note">校园方位与地标参考归档学院路地图：© OpenStreetMap contributors · <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a>。</p></main>
+<script>const notes={"campus": "位置关系参考学院路校园资料；步行距离与入口为玩法压缩，非实测平面图。", "dorm_room": "功能区与通道按 32 px 网格手工规划；家具仅作体块与交互锚点。", "classroom": "功能区与通道按 32 px 网格手工规划；家具仅作体块与交互锚点。", "club_room": "功能区与通道按 32 px 网格手工规划；家具仅作体块与交互锚点。"};function show(id){document.getElementById('map').src=id+'.svg';document.getElementById('note').textContent=notes[id];document.querySelectorAll('button').forEach(b=>b.classList.toggle('active',b.dataset.scene===id));}document.querySelectorAll('button').forEach(b=>b.onclick=()=>show(b.dataset.scene));show('campus');</script></html>
